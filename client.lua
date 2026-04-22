@@ -24,8 +24,9 @@ CreateThread(function()
     -- Bahama Mamas: -1388.0013, -618.41967, 30.819599
     BahamaMamas.Enable(true)
 
+    -- ROLEPLAY: We use cfx-gabz-pillbox for this ipl
     -- Pillbox hospital: 307.1680, -590.807, 43.280
-    PillboxHospital.Enable(true)
+    PillboxHospital.Enable(false)
 
     -- Zancudo Gates (GTAO like): -1600.30100000, 2806.73100000, 18.79683000
     ZancudoGates.LoadDefault()
@@ -202,7 +203,9 @@ CreateThread(function()
     if GetGameBuildNumber() >= 2944 then
         MercenariesClub.LoadDefault() -- 1202.407, -3251.251, -50.000
         MercenariesLab.LoadDefault() -- -1916.119, 3749.719, -100.000
-        MercenariesFixes.LoadDefault()
+        -- ROLEPLAY: We use cfx-gabz-pdm for this ipl
+        -- MercenariesFixes.LoadDefault()
+        MercenariesFixes.Enable(false)
     end
 
     -- ====================================================================
